@@ -1,0 +1,6 @@
+torch
+torchvision
+segmentation-models-pytorch==0.5.0
+pandas
+numpy
+Pillow
