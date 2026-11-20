@@ -16,6 +16,7 @@ The dataset comprises **22 temporally annotated laparoscopic procedures**, inclu
 Python environment with the dependencies in `requirements.txt`; access to the original dataset and `paths_and_annotations.csv`. The dataset is available on Zenodo as [Zenodo DOI: 10.5281/zenodo.23236497](https://doi.org/10.5281/zenodo.23236497). The CSV, image data, video data, model weights and original experimental outputs are **not included** in this repository. 
 
 ```bash
+
 pip install -r requirements.txt
 
 python run_segmentation.py --architecture DeepLabV3Plus --csv /path/to/paths_and_annotations.csv --root /path/to/dataset
@@ -24,6 +25,7 @@ python run_segmentation.py --architecture Segformer --csv /path/to/paths_and_ann
 
 python run_experiment2.py --csv /path/to/paths_and_annotations.csv --root /path/to/dataset
 ```
+
 
 ## Important implementation notes
 
