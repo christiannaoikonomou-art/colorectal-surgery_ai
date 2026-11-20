@@ -17,8 +17,11 @@ Python environment with the dependencies in `requirements.txt`; access to the or
 
 ```bash
 pip install -r requirements.txt
+
 python run_segmentation.py --architecture DeepLabV3Plus --csv /path/to/paths_and_annotations.csv --root /path/to/dataset
+
 python run_segmentation.py --architecture Segformer --csv /path/to/paths_and_annotations.csv --root /path/to/dataset
+
 python run_experiment2.py --csv /path/to/paths_and_annotations.csv --root /path/to/dataset
 ```
 
